@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 导航栏样式 */
+/* 最外层容器 */
+.music-head.data-v-e0b6e5e0{
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16px;
+	color: black;
+	position: relative;
+}
+.music-head-title.data-v-e0b6e5e0{
+	display: inline-block;
+	width: calc(100vw - 200px );
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 里层图标栏 */
+.music-head-icon.data-v-e0b6e5e0{
+	position: absolute;
+	left: 8px;
+	top: 26px;
+	border-radius: 15px;
+	width: 90px;
+	height: 31px;
+	line-height: 31px;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);
+	display: flex;
+	justify-content: space-evenly;
+}
+.music-head-rule.data-v-e0b6e5e0{
+	line-height: 28px;
+	font-size: 24rpx;
+	color: #567196;
+}
+.music-head-bg.data-v-e0b6e5e0{
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+}
+

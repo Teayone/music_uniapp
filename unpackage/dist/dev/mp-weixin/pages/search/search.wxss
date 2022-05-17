@@ -1,0 +1,436 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 导航栏样式 */
+/* 最外层容器 */
+.music-head.data-v-e0b6e5e0{
+	width: 100%;
+	height: 75px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 16px;
+	color: black;
+	position: relative;
+}
+.music-head-title.data-v-e0b6e5e0{
+	display: inline-block;
+	width: calc(100vw - 200px );
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/* 里层图标栏 */
+.music-head-icon.data-v-e0b6e5e0{
+	position: absolute;
+	left: 8px;
+	top: 26px;
+	border-radius: 15px;
+	width: 90px;
+	height: 31px;
+	line-height: 31px;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);
+	display: flex;
+	justify-content: space-evenly;
+}
+.music-head-rule.data-v-e0b6e5e0{
+	line-height: 28px;
+	font-size: 24rpx;
+	color: #567196;
+}
+.music-head-bg.data-v-e0b6e5e0{
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 搜索框 */
+.search-search.data-v-4cedc0c6{
+	display: flex;
+	align-items: center;
+	height: 70rpx;
+	margin: 70rpx 30rpx 50rpx 30rpx;
+	background-color: #f7f7f7;
+	border-radius: 50rpx;
+}
+.search-search text.data-v-4cedc0c6{
+	/* font-size: 26rpx; */
+	margin: 0 26rpx 0 28rpx;
+}
+.search-search input.data-v-4cedc0c6{
+	font-size: 26rpx;
+	flex: 1;
+}
+/* 历史记录总区域 */
+.search-history.data-v-4cedc0c6{
+	margin: 0 30rpx 50rpx 30rpx;
+	font-size: 26rpx;
+}
+/* 历史记录和删除按钮 */
+.search-history-head.data-v-4cedc0c6{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36rpx;
+}
+.search-history-head text.data-v-4cedc0c6{
+}
+/* 搜索记录 */
+.search-history-list.data-v-4cedc0c6{
+	display: flex;
+	flex-wrap: wrap;
+}
+.search-history-list view.data-v-4cedc0c6{
+	padding: 16rpx 28rpx;
+	border-radius: 40rpx;
+	margin-right: 30rpx;
+	margin-bottom: 30rpx;
+	background-color: #f7f7f7;
+}
+/* 热搜榜总区域 */
+.hot-list.data-v-4cedc0c6{
+	margin: 0 30rpx;
+	font-size: 26rpx;
+}
+.hot-list>view.data-v-4cedc0c6:first-child{
+	margin-bottom: 36rpx;
+}
+/* 歌曲容器 */
+.hot-music.data-v-4cedc0c6{
+	display: flex;
+	align-items: center;
+	margin-bottom: 58rpx;
+}
+.hot-music .hot-music-index.data-v-4cedc0c6{
+	font-size: 36rpx;
+	color: #999999;
+	width: 60rpx;
+	margin-left: 8rpx;
+}
+/* 前三个的数字是红色 */
+.hot-music .hot-music-rank.data-v-4cedc0c6{
+	color:#fb2222;
+}
+/* 歌名和广告词区域 */
+.hot-music-ad.data-v-4cedc0c6{
+	flex: 1;
+}
+/* 歌名 */
+.hot-ad-title.data-v-4cedc0c6{
+	font-size: 30rpx;
+	margin-bottom: 6rpx;
+}
+/* 歌名旁边的小图片 */
+.hot-ad-title image.data-v-4cedc0c6{
+	width: 48rpx;
+	height: 22rpx;
+	margin-left: 10rpx;
+}
+/* 广告词 */
+.hot-music-info.data-v-4cedc0c6{
+	font-size: 24rpx;
+	color: #878787;
+	width: calc(100vw - 280rpx);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 右侧热度值 */
+.hot-music-num.data-v-4cedc0c6{
+	color: #D2D2D2;
+}
+/* 搜索结果区域 */
+.search-result.data-v-4cedc0c6{border-top: 2rpx #e4e4e4 solid; padding: 30rpx;}
+/* 歌名演唱者播放按钮 */
+.search-result-item.data-v-4cedc0c6{display: flex; align-items: center;justify-content: space-between;padding-bottom: 30rpx;border-bottom: 1px solid #e4e4e4;margin-bottom: 30rpx;}
+/* 歌名演唱者 */
+.serach-result-words.data-v-4cedc0c6{}
+/* 歌名 */
+.serach-result-words>view.data-v-4cedc0c6:first-child{
+	font-size: 28rpx;
+	color: #6383B0;
+}
+/* 演唱者和图标 */
+.serach-result-words>view.data-v-4cedc0c6:last-child{font-size: 22rpx; color: #9C9C9C; padding-top:12rpx;
+}
+.serach-result-words>view:last-child image.data-v-4cedc0c6{
+	width: 30rpx;
+	height: 20rpx;
+	position: relative;
+	top: 2rpx;
+	margin-right: 8rpx;
+}
+/* 播放按钮 */
+.search-result-item>text.data-v-4cedc0c6{font-size:50rpx; color: #CFCFCF;}
+/* 搜索提示区域 */
+/* 最外层容器 */
+.serach-suggest.data-v-4cedc0c6{
+	border-top: 2rpx #e4e4e4 solid; 
+	padding: 56rpx;
+	font-size: 26rpx
+}
+/* 跟随着输入内容而变化的文字 */
+.search-suggest-head.data-v-4cedc0c6{
+
+	color: #7B97BC;
+	margin-bottom: 74rpx;
+}
+/* 搜索提示结果 */
+.serach-suggest-item.data-v-4cedc0c6{
+	color: #5d5d5d;
+	margin-bottom: 74rpx;
+}
+.serach-suggest-item > text.data-v-4cedc0c6{
+	margin-right: 28rpx;
+	position: relative;
+	top: 3rpx;
+	color: #bdbdbd;
+}
+
+
+
